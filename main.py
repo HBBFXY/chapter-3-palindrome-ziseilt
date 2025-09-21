@@ -1,7 +1,6 @@
 # 这里编写你的代
-num = input("请输入一个5位数：")
+num = input().strip()  # 不显示提示，直接读取输入
 
-# 检查输入是否为5位且全部为数字
 if len(num) != 5 or not num.isdigit():
     print("输入错误：请输入5位数字")
 else:
